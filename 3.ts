@@ -3,7 +3,6 @@ import fs from "fs";
 
 const data = fs.readFileSync(path.resolve("3.txt"), {encoding: "utf-8"})
 
-
 const rows = data.split(/\n/);
 
 let pos = 0
